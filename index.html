@@ -552,6 +552,142 @@
             </div>
         </div>
 
+        <!-- Before You Start Guide -->
+        <div class="quest-card" style="border: 2px solid rgba(234, 179, 8, 0.5); background: linear-gradient(135deg, rgba(234, 179, 8, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);">
+            <div class="quest-header" style="border-bottom-color: rgba(234, 179, 8, 0.3);">
+                <div class="quest-title">
+                    <div class="quest-number" style="background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%);">⚡</div>
+                    <div class="quest-name">Before You Start: Get Your Azure Environment Ready</div>
+                </div>
+                <div class="xp-badge">Setup Guide</div>
+            </div>
+
+            <div class="quest-section">
+                <div class="section-title">🎯 Why This Matters</div>
+                <p class="quest-intro">To get the FULL hands-on experience with this companion, you'll want access to Azure AD Premium P2 features. The good news? Microsoft offers a FREE 30-day trial with 100 user licenses - perfect for learning!</p>
+            </div>
+
+            <div class="tip-box">
+                <div class="tip-title">💎 What You'll Unlock with P2 Trial</div>
+                <div class="tip-content">
+                    • <strong>Self-Service Password Reset (SSPR)</strong> - Actually configure it, not just read about it<br>
+                    • <strong>Conditional Access</strong> - Create real policies based on location, device, risk<br>
+                    • <strong>Dynamic Groups</strong> - Build rule-based automatic group membership<br>
+                    • <strong>Privileged Identity Management (PIM)</strong> - Time-based admin access<br>
+                    • <strong>Identity Protection</strong> - Risk detection and automated responses<br><br>
+                    Without P2, you can only VIEW these features. With P2, you can BUILD with them! 🚀
+                </div>
+            </div>
+
+            <div class="quest-section">
+                <div class="section-title">📋 Setup Steps (15 minutes)</div>
+                <ul class="steps-list">
+                    <li data-step="1"><strong>Create Free Azure Account</strong><br>
+                    Go to <a href="https://azure.microsoft.com/free" target="_blank" style="color: #3b82f6;">azure.microsoft.com/free</a> → Sign up with your personal email → You'll get $200 credit (30 days) PLUS 12 months of free services</li>
+                    
+                    <li data-step="2"><strong>Verify Your Account</strong><br>
+                    Microsoft will ask for a phone number and credit card (for verification only - you won't be charged during the trial)</li>
+                    
+                    <li data-step="3"><strong>Access Azure Portal</strong><br>
+                    Once verified, go to <a href="https://portal.azure.com" target="_blank" style="color: #3b82f6;">portal.azure.com</a> and sign in</li>
+                    
+                    <li data-step="4"><strong>Navigate to Azure Active Directory</strong><br>
+                    Search for "Azure Active Directory" in the top search bar → Click to open</li>
+                    
+                    <li data-step="5"><strong>Activate P2 Trial</strong><br>
+                    In Azure AD, click "Licenses" in the left menu → Click "All products" → Click "Try/Buy" → Find "Microsoft Entra ID P2" → Click "Activate" on the Free Trial</li>
+                    
+                    <li data-step="6"><strong>Assign License to Yourself</strong><br>
+                    Go to Azure AD → "Users" → Click on your user → Click "Licenses" → Click "+ Assignments" → Select "Microsoft Entra ID P2" → Click "Save"</li>
+                </ul>
+            </div>
+
+            <div class="warning-box">
+                <div class="warning-title">⚠️ Important Trial Info</div>
+                <div class="warning-content">
+                    • Trial lasts <strong>30 days</strong> from activation<br>
+                    • You get <strong>100 licenses</strong> (way more than you need!)<br>
+                    • No automatic charges - premium features just stop working after 30 days<br>
+                    • Your free tier features and $200 credit are separate and stay active<br>
+                    • Plan to spend your 30 days wisely - focus on identity/security topics first!
+                </div>
+            </div>
+
+            <div class="hint-box">
+                <div class="hint-title">💡 Can I Skip the P2 Trial?</div>
+                <div class="hint-content">
+                    Yes! You can still learn from this companion without P2. The guide explains what each feature DOES and WHY it matters. However, you'll only be able to VIEW settings instead of actually configuring them.<br><br>
+                    
+                    <strong>With Free Tier Only:</strong><br>
+                    • Quest 1 (Create Users/Groups): ✅ Full hands-on<br>
+                    • Quest 2 (Guest Access): ✅ Full hands-on<br>
+                    • Quest 3 (SSPR): ⚠️ Conceptual learning only<br>
+                    • Quest 4 (MFA): ⚠️ Security Defaults only (no Conditional Access)<br>
+                    • Quest 5 (Dynamic Groups): ⚠️ Conceptual learning only<br><br>
+                    
+                    <strong>With P2 Trial:</strong><br>
+                    All quests: ✅ Full hands-on experience!<br><br>
+                    
+                    For AZ-104 exam prep, understanding the concepts is sufficient. But hands-on is always better! 💪
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <div class="tip-title">🎓 Study Timeline Suggestion</div>
+                <div class="tip-content">
+                    If you activate the P2 trial, here's how to maximize your 30 days:<br><br>
+                    <strong>Week 1: Identity & Access (this companion!)</strong><br>
+                    • Azure AD fundamentals<br>
+                    • RBAC<br>
+                    • Conditional Access<br><br>
+                    
+                    <strong>Week 2: Governance</strong><br>
+                    • Management Groups<br>
+                    • Azure Policy<br>
+                    • Cost Management<br><br>
+                    
+                    <strong>Weeks 3-4: Infrastructure</strong><br>
+                    • Storage Accounts<br>
+                    • Virtual Machines<br>
+                    • Virtual Networks<br>
+                    • (Use your $200 credit for these!)<br><br>
+                    
+                    This way you use P2 for identity features early, then practice infrastructure topics that don't need premium licenses.
+                </div>
+            </div>
+
+            <div class="checkpoint-section">
+                <div class="section-title">✅ Setup Checklist</div>
+                <div class="checkpoint">
+                    <input type="checkbox" id="setup-1">
+                    <label class="checkpoint-label" for="setup-1">Created free Azure account</label>
+                </div>
+                <div class="checkpoint">
+                    <input type="checkbox" id="setup-2">
+                    <label class="checkpoint-label" for="setup-2">Can access portal.azure.com</label>
+                </div>
+                <div class="checkpoint">
+                    <input type="checkbox" id="setup-3">
+                    <label class="checkpoint-label" for="setup-3">Activated Microsoft Entra ID P2 trial (optional but recommended)</label>
+                </div>
+                <div class="checkpoint">
+                    <input type="checkbox" id="setup-4">
+                    <label class="checkpoint-label" for="setup-4">Assigned P2 license to my user account (if activated trial)</label>
+                </div>
+                <div class="checkpoint">
+                    <input type="checkbox" id="setup-5">
+                    <label class="checkpoint-label" for="setup-5">Ready to start Quest 1!</label>
+                </div>
+            </div>
+
+            <div class="resource-box">
+                <div class="resource-title">🔗 Helpful Links</div>
+                <a href="https://azure.microsoft.com/free" class="resource-link" target="_blank">→ Sign up for Free Azure Account</a>
+                <a href="https://portal.azure.com" class="resource-link" target="_blank">→ Azure Portal</a>
+                <a href="https://learn.microsoft.com/en-us/entra/fundamentals/get-started-premium" class="resource-link" target="_blank">→ Microsoft Docs: Get Started with Entra ID Premium</a>
+            </div>
+        </div>
+
         <!-- Quest 1: Create Users and Groups -->
         <div class="quest-card" data-quest="1" data-xp="20">
             <div class="quest-header">
