@@ -1,34 +1,66 @@
-# AZ-104 Azure Administrator Study Companion Series
+<div align="center">
 
-Interactive, gamified study guides for the AZ-104 certification exam.
+```
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║   ████ █   █ █ █    █    █████ █   █ ███████ ███████      ║
+║   █    █  █  █ █    █      █   █   █ █       █            ║
+║   ████ ███   █ █    █      █   █ █ █ █████   █████        ║
+║      █ █  █  █ █    █      █   ██ ██ █       █            ║
+║   ████ █   █ █ ████ ████   █   █   █ ███████ ███████      ║
+║   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
+║   AZ-104 Study Companion — Interactive walkthroughs       ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
-## 🎯 About
-Companion tutorials designed to work alongside the [AZ-104 Skill Tree](link-to-main-tree). 
+[![MIT](https://img.shields.io/badge/license-MIT-E85D04?style=flat-square)]()
+[![Web](https://img.shields.io/badge/platform-Web-00d4ff?style=flat-square)]()
+[![Twine](https://img.shields.io/badge/built_with-Twine-FAA307?style=flat-square)]()
+[![AnarchyGames](https://img.shields.io/badge/by-AnarchyGames.org-E85D04?style=flat-square)](https://anarchygames.org)
+
+*Building things that should exist.*
+
+</div>
+
+---
+
+Interactive, gamified study guides for the AZ-104 Azure Administrator certification exam. Companion tutorials designed to work alongside the [AZ-104 Skill Tree](https://github.com/AnarchySC/Skilltwee-AZ104).
+
 Each guide provides step-by-step walkthroughs with hints, knowledge checks, and XP tracking.
 
-## 🚀 Currently Available
-- ✅ Azure AD Fundamentals (100 XP)
+## Available
 
-## 🔜 Coming Soon
+- Azure AD Fundamentals (100 XP)
+
+## Coming Soon
+
 - RBAC (Role-Based Access Control)
 - Azure Policy
 - Management Groups
 - Storage Accounts
 - Virtual Machines
-... and more!
+- ...and more
 
-## 💡 How to Use
-1. Open the HTML file in your browser
-2. Follow along in your Azure Portal (free account works!)
-3. Check off objectives as you complete them
-4. Progress is saved in your browser
+## How to Use
 
-## 🎮 Features
-- Progressive quest unlocking
-- XP tracking system
-- Knowledge checks
-- Persistent progress saving
-- Dark, cyberpunk aesthetic matching the main skill tree
+1. Open a companion guide in your browser
+2. Follow the interactive walkthrough
+3. Complete knowledge checks to earn XP
+4. Use alongside the [main Skill Tree](https://github.com/AnarchySC/Skilltwee-AZ104) for full coverage
 
-## 🤝 Contributing
-Want to help build companions for other AZ-104 skills? PRs welcome!
+---
+
+<div align="center">
+
+## Support
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Skilltwee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/cassettefuture)
+
+---
+
+MIT License.
+
+An [AnarchyGames.org](https://anarchygames.org) project.
+
+</div>
